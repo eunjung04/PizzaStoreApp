@@ -25,6 +25,8 @@ class MainActivity : BaseActivity() {
 
     override fun setupEvents() {
 
+        pizzaStoreListView
+
         pizzaStoreListView.adapter
         //pizzaStoreListView=mpa
 
