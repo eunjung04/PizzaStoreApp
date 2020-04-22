@@ -1,6 +1,7 @@
 package com.example.pizzastoreapp.adapter
 
 import android.content.Context
+import android.media.Image
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -24,6 +25,8 @@ class StoreAdapter(val context: Context, resId:Int, list:ArrayList<Store>) : Arr
       }
 
         val row=tempRow!!
+
+        storeNmaeTxt
 
         return row
 
