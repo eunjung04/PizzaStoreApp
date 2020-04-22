@@ -21,8 +21,7 @@ class MainActivity : BaseActivity() {
 
     override fun setValue() {
 
-        // val tempStore=Store("피자헛","naver.com", phoneNum = "1")
-       // Log.d("가게이름", tempStore.name)
+
 
     }
 
