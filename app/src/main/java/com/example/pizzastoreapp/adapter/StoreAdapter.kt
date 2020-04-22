@@ -20,6 +20,7 @@ class StoreAdapter(val context: Context, resId:Int, list:ArrayList<Store>) : Arr
 
       }.let {
           tempRow=inf.inflate(R.layout.store_list_item,null)
+
       }
 
         val row=tempRow!!
