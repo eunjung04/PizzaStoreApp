@@ -1,5 +1,7 @@
 package com.example.pizzastoreapp
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -25,7 +27,10 @@ class Main2Activity : BaseActivity() {
            //it.visibility=View.GONE
 
             val pi=object  : PermissionListener {
-                override fun onPermissionGranred()
+                override fun onPermissionGranted()
+
+                val storeCallUri=Uri.parse("tel:${storeData.phoneNum}")
+                val myIntent=Intent(Intent.ACTION_CALL)
 
             }
 
